@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-head">
+        <h2 class="head-main-text">Generate a</h2>
+        <h2 class="sub-head-main-text">random password</h2>
+        <p class="instruction-text">
+          Never use an insecure text password again.
+        </p>
+        <button class="btn" onclick="Generator()">Generate Password</button>
+        <hr style="border: 1px solid rgba(213, 212, 216, 1)" />
+      </div>
+      <div class="input-values">
+        <div id="first-password">
+          <p id="val1"></p>
+        </div>
+        <div id="second-password">
+          <p id="val2"></p>
+        </div>
+      </div>
+      <div class="input-value">
+        <button class="btns" onclick="Copyone()">Copy Password</button>
+        <button class="btns" onclick="Coptwo()">Copy Password</button>
+      </div>
+    </div>
+    <div id="snackbar">Password Copied!</div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
